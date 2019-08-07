@@ -1,0 +1,93 @@
+/* top part of the page */
+
+#container-top {
+  background-color: antiquewhite;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+
+#gradient {
+  width: 100%;
+  height: 150px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#navigation {
+  background-color: antiquewhite;
+}
+
+#logo {
+  position: absolute;
+  right: 20px;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  margin: 20px;
+}
+
+h3 {
+  font-family: 'Roboto Mono', serif;
+  text-align: left;
+}
+
+
+/* middle part of the page */
+
+#month-selection {
+  font-family: 'Roboto Mono', serif;
+}
+
+#table {
+  margin: 10px;
+}
+
+.thead {
+  font-family: 'Roboto Mono', serif;
+}
+
+#landscape-map {
+  padding-left: 10px;
+}
+
+.unaClase {
+  background-color: grey;
+}
+
+@media only screen and (orientation: Portrait) {
+  #month-selection {
+    width: 100%;
+  }
+
+  .mostrar-portrait {
+    display: block;
+  }
+
+  .mostrar-landscape {
+    display: none;
+  }
+
+  #tabla-partidos {
+    width: 100%;
+  }
+}
+
+@media only screen and (orientation: Landscape) {
+  #month-selection {
+    width: 52%;
+  }
+
+  .mostrar-portrait {
+    display: none;
+  }
+
+  .mostrar-landscape {
+    display: block;
+  }
+
+  #tabla-partidos {
+    width: 50%;
+  }
+}
